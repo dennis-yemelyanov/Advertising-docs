@@ -581,7 +581,9 @@ With experiment campaigns you cannot update the [Budget](#budget), [Budget Type]
 ## <a name="storeid"></a>Store Id
 The unique identifier for the Microsoft Merchant Center store that contains a product catalog feed that you want to use for the campaign.
 
-Once you choose a store for a campaign, you can't change it. If at some point you want to use a different store, you would need to create a new shopping campaign with a new shopping setting.
+Once you choose a store for a campaign, you can't change it. If at some point you want to use a different store, you would need to create a new shopping campaign with a new shopping setting. 
+
+For [smart shopping campaigns](../guides/smart-shopping-campaigns.md) (campaign [Sub Type](campaign.md#subtype) set to *ShoppingSmartAds*), we recommend that you set this to the ID of your manager account's global store (store [SubType](../campaign-management-service/bmcstore.md#subtype) set to [GlobalStore](../campaign-management-service/bmcstoresubtype.md#globalstore)).
 
 To get your store identifiers, call the [GetBMCStoresByCustomerId](../campaign-management-service/getbmcstoresbycustomerid.md) operation.
 
