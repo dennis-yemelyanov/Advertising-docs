@@ -24,7 +24,7 @@ The *GetBMCStoresByCustomerIdRequest* object defines the [body](#request-body) a
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[BMCStoreAdditionalField](bmcstoreadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional stores that you want included.<br/><br/>The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[BMCStoreAdditionalField](bmcstoreadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
