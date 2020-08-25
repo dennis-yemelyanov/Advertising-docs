@@ -63,7 +63,7 @@ You can create a smart shopping [campaign](../campaign-management-service/campai
 
 - You must set the [DailyBudget](../campaign-management-service/campaign.md#dailybudget). Shared budget is not supported with smart shopping campaigns.  
 
-- You must include a [ShoppingSetting](../campaign-management-service/shoppingsetting.md) in the list of campaign [Settings](../campaign-management-service/campaign.md#settings). You must set the [Priority](../campaign-management-service/shoppingsetting.md#priority) to 3; Set the [StoreId](../campaign-management-service/shoppingsetting.md#storeid) to one of your [Microsoft Merchant Center](#setup-bmc) store identifiers. 
+- You must include a [ShoppingSetting](../campaign-management-service/shoppingsetting.md) in the list of campaign [Settings](../campaign-management-service/campaign.md#settings). You must set the [Priority](../campaign-management-service/shoppingsetting.md#priority) to 3; Set the [StoreId](../campaign-management-service/shoppingsetting.md#storeid) to one of your [Microsoft Merchant Center](#setup-bmc) store identifiers. For smart shopping campaigns, we recommend that you set this to the ID of your manager account's global store (store [SubType](../campaign-management-service/bmcstore.md#subtype) set to [GlobalStore](../campaign-management-service/bmcstoresubtype.md#globalstore)).  
 
 Here's an example [AddCampaigns](../campaign-management-service/addcampaigns.md) SOAP request with smart shopping campaign settings. 
 
