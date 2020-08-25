@@ -583,7 +583,7 @@ The unique identifier for the Microsoft Merchant Center store that contains a pr
 
 Once you choose a store for a campaign, you can't change it. If at some point you want to use a different store, you would need to create a new shopping campaign with a new shopping setting. 
 
-For [smart shopping campaigns](../guides/smart-shopping-campaigns.md) (campaign [Sub Type](campaign.md#subtype) set to *ShoppingSmartAds*), we recommend that you set this to the ID of your manager account's global store (store [SubType](../campaign-management-service/bmcstore.md#subtype) set to [GlobalStore](../campaign-management-service/bmcstoresubtype.md#globalstore)).
+With [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative), we recommend that you set this to the ID of your manager account's global store (store [SubType](../campaign-management-service/bmcstore.md#subtype) set to [GlobalStore](../campaign-management-service/bmcstoresubtype.md#globalstore)).
 
 To get your store identifiers, call the [GetBMCStoresByCustomerId](../campaign-management-service/getbmcstoresbycustomerid.md) operation.
 
