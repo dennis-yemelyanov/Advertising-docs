@@ -583,7 +583,7 @@ The unique identifier for the Microsoft Merchant Center store that contains a pr
 
 Once you choose a store for a campaign, you can't change it. If at some point you want to use a different store, you would need to create a new shopping campaign with a new shopping setting. 
 
-With [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative), we recommend that you set this to the ID of your manager account's global store (store [SubType](../campaign-management-service/bmcstore.md#subtype) set to [GlobalStore](../campaign-management-service/bmcstoresubtype.md#globalstore)). By initially targeting all linked stores via the campaign shopping setting, you can then upload up to 10 [Campaign Negative Store Criterion](campaign-negative-store-criterion.md) records to exclude specific retailers as needed. 
+With [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative) a single campaign can target all your retailer partners, and there's no need to create individual campaigns for each retailer. We recommend that you set this to the ID of your manager account's global store (store [SubType](../campaign-management-service/bmcstore.md#subtype) set to [GlobalStore](../campaign-management-service/bmcstoresubtype.md#globalstore)). By initially targeting all linked stores via the campaign shopping setting, you can then upload up to 10 [Campaign Negative Store Criterion](campaign-negative-store-criterion.md) records to exclude specific retailers as needed. 
 
 To get your store identifiers, call the [GetBMCStoresByCustomerId](../campaign-management-service/getbmcstoresbycustomerid.md) operation.
 

@@ -38,7 +38,7 @@ The [BMCStoreSubType](bmcstoresubtype.md) value set has the following values: [C
 |Value|Description|
 |-----------|---------------|
 |<a name="coop"></a>CoOp|The Microsoft Merchant Center store supports Shopping Campaigns for Brands.|
-|<a name="globalstore"></a>GlobalStore|With Shopping Campaigns for Brands the global store encompasses all linked stores under the current manager account.|
+|<a name="globalstore"></a>GlobalStore|With Shopping Campaigns for Brands the global store encompasses all linked stores under the current manager account.<br/><br/>You cannot exclude a global store via negative [StoreCriterion](storecriterion.md).|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
